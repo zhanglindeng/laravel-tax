@@ -1,0 +1,20 @@
+{
+    "name": "dengzhanglin/laravel-tax",
+    "description": "laravel personal tax calculate component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dengzhanglin",
+            "email": "dengzhanglin@shsnc.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dzlin\\Tax\\": "src/"
+        }
+    }
+}
