@@ -1,11 +1,11 @@
 {
-    "name": "dengzhanglin/laravel-tax",
+    "name": "zhanglindeng/laravel-tax",
     "description": "laravel personal tax calculate component",
     "license": "MIT",
     "authors": [
         {
-            "name": "dengzhanglin",
-            "email": "dengzhanglin@shsnc.com"
+            "name": "zhanglindeng",
+            "email": "zhanglindeng@163.com"
         }
     ],
     "require": {
