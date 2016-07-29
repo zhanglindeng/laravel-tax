@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'name'  => 'laravel-tax',
-    'range' => [
+    'precision' => 2,
+    'ranges'    => [
         [0, 1500, 3, 0],
         [1500, 4500, 10, 105],
         [4500, 9000, 20, 555],

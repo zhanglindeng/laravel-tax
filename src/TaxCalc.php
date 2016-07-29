@@ -12,7 +12,6 @@ class TaxCalc
         $this->app = $app;
     }
 
-    // todo doCalc
     public function doCalc($money)
     {
         if (!is_numeric($money)) {
@@ -23,6 +22,18 @@ class TaxCalc
             return 0;
         }
 
-        return $money - 100;
+        $tax = 0;
+
+        $ranges = config('tax.ranges');
+        foreach ($ranges as $index => $range) {
+            if ($range[0] < $money && $money <= $range[1]) {
+                $tax = $money * $range[2] * 0.01 - $range[3];
+                break;
+            }
+        }
+
+        $precision = (int)config('tax.precision', 2);
+
+        return round($tax, $precision);
     }
 }
