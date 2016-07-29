@@ -2,6 +2,7 @@
     "name": "dengzhanglin/laravel-tax",
     "description": "laravel personal tax calculate component",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "dengzhanglin",
