@@ -2,7 +2,6 @@
     "name": "dengzhanglin/laravel-tax",
     "description": "laravel personal tax calculate component",
     "license": "MIT",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "dengzhanglin",
@@ -16,11 +15,6 @@
     "autoload": {
         "psr-4": {
             "Dzlin\\Tax\\": "src/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
         }
     }
 }
