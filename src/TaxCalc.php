@@ -25,6 +25,7 @@ class TaxCalc
         $tax = 0;
 
         $ranges = config('tax.ranges');
+        // todo 判断 ranges 是否有效
         foreach ($ranges as $index => $range) {
             if ($range[0] < $money && $money <= $range[1]) {
                 $tax = $money * $range[2] * 0.01 - $range[3];
