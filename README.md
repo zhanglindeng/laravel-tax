@@ -1,6 +1,7 @@
 # laravel-tax
 
 laravel personal tax calculate component
+（工资个税计算，仅仅是为了学习记录开发laravel组件）
 
 
 ### 安装
