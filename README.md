@@ -10,3 +10,17 @@ laravel personal tax calculate component
 - Facade：`config/app.php` 中的 `aliases` 添加 `'Tax'       => Dzlin\Tax\Facade::class`
 - 发布配置文件：`php artisan vendor:publish`
 - 编辑配置文件 `config/tax.php`
+
+### 一些关于 laravel 的文章链接
+- https://laravel-china.org/topics/3593
+- https://blog.wu-boy.com/2016/03/why-i-choose-laravel-framework/
+- https://blog.wu-boy.com/2016/01/how-to-choose-web-framework/
+- https://www.zhihu.com/question/30622752/answer/136397605
+- https://laravel-china.org/topics/3452
+- https://laravel-china.org/topics/2376
+- https://laravel-china.org/topics/1340
+- http://www.cnblogs.com/zdz8207/p/PHP-Laravel.html
+- https://segmentfault.com/q/1010000000489103
+- http://oomusou.io/laravel/laravel-for-newbie/
+- http://witmax.cn/php-framework-comparison.html
+- http://www.loveseem.com/article_20.html
