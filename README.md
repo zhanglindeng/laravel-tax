@@ -24,3 +24,17 @@ laravel personal tax calculate component
 - http://oomusou.io/laravel/laravel-for-newbie/
 - http://witmax.cn/php-framework-comparison.html
 - http://www.loveseem.com/article_20.html
+
+### laravel
+- 引言
+- 背景
+- 意義
+- 簡介
+- 歷史
+- 現狀
+- 功能
+- 優點
+- 缺點
+- 對比
+- 看法
+- 總結
