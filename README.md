@@ -38,3 +38,7 @@ laravel personal tax calculate component
 - 對比
 - 看法
 - 總結
+
+### laravel auth
+- [segmentfault](https://segmentfault.com/a/1190000007907959)
+- [blueve](http://blueve.me/archives/898)
